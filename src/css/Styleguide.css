@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;600;700&display=swap');
+
+:root {
+    --brown: rgba(134, 106, 65, 1);
+    --beige: rgba(238, 217, 180, 1);
+    --light-blue: rgba(113, 148, 240, 1);
+    --black: rgba(0, 0, 0, 1);
+    --white: rgba(255, 255, 255, 1);
+    --blue: rgba(14, 77, 241, 1);
+    --dark-blue: rgba(6, 42, 136, 1);
+    --gray: rgba(219, 219, 219, 1);
+    --dark-gray: rgba(45, 45, 45, 1);
+ }
