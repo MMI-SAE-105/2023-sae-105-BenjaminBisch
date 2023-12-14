@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;600;700&display=swap');
-@import url(/src/css/Styleguide.css);
-.main {
+@import url(/utils/variables.css);
+.home {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -10,42 +10,35 @@
     width: 100%;
   }
   
-  .main .div {
+  .home {
     background-color: #ffffff;
     width: 391px;
     height: 2243px;
     position: relative;
   }
   
-  .home .text-wrapper {
+  .home .horraire {
     position: absolute;
     top: 1495px;
     left: 0;
-    font-family: var(--samll-text-bold-font-family);
-    font-weight: var(--samll-text-bold-font-weight);
+    font-family: "Epilogue";
     color: #000000;
     font-size: var(--samll-text-bold-font-size);
-    letter-spacing: var(--samll-text-bold-letter-spacing);
-    line-height: var(--samll-text-bold-line-height);
     white-space: nowrap;
-    font-style: var(--samll-text-bold-font-style);
+    font-style: bold;
   }
   
-  .home .text-wrapper-2 {
+  .home .tarif {
     position: absolute;
     top: 1594px;
     left: 0;
-    font-family: var(--samll-text-bold-font-family);
-    font-weight: var(--samll-text-bold-font-weight);
+    font-family: "Epilogue";
     color: #000000;
-    font-size: var(--samll-text-bold-font-size);
-    letter-spacing: var(--samll-text-bold-letter-spacing);
-    line-height: var(--samll-text-bold-line-height);
     white-space: nowrap;
-    font-style: var(--samll-text-bold-font-style);
+    font-style: bold;
   }
   
-  .home .overlap {
+  .home .zz {
     position: absolute;
     width: 117px;
     height: 184px;
@@ -53,7 +46,7 @@
     left: 265px;
   }
   
-  .home .element {
+  .home .ticket {
     position: absolute;
     width: 18px;
     height: 18px;
@@ -71,35 +64,15 @@
     top: 0;
   }
   
-  .home .text-wrapper-3 {
+  .home h3 {
     top: 21px;
     left: 8px;
-    font-family: var(--samll-text-bold-font-family);
-    font-weight: var(--samll-text-bold-font-weight);
+    font-family: "Epilogue";
     color: #ffffff;
-    font-size: var(--samll-text-bold-font-size);
     text-align: center;
-    line-height: var(--samll-text-bold-line-height);
     position: absolute;
-    letter-spacing: var(--samll-text-bold-letter-spacing);
     white-space: nowrap;
-    font-style: var(--samll-text-bold-font-style);
-  }
-  
-  .home .line {
-    top: 18px;
-    left: 8px;
-    position: absolute;
-    width: 75px;
-    height: 1px;
-  }
-  
-  .home .img {
-    position: absolute;
-    width: 75px;
-    height: 3px;
-    top: -3px;
-    left: 0;
+    font-style: bold;
   }
   
   .home .bouton {
@@ -114,7 +87,7 @@
     left: 8px;
   }
   
-  .home .frame {
+  .home .bouton {
     display: flex;
     width: 129px;
     height: 41px;
@@ -132,21 +105,17 @@
   .home .button {
     margin-top: -10.5px;
     margin-bottom: -8.5px;
-    font-size: var(--button-font-size);
-    letter-spacing: var(--button-letter-spacing);
-    line-height: var(--button-line-height);
     position: relative;
     width: fit-content;
-    font-family: var(--button-font-family);
-    font-weight: var(--button-font-weight);
+    font-family: "Mulish";
     color: var(--white);
     text-align: center;
-    font-style: var(--button-font-style);
+    font-style: bold, uppercase;
     all: unset;
     box-sizing: border-box;
   }
   
-  .home .frame-wrapper {
+  .home .bouton-2 {
     width: 98px;
     height: 37px;
     gap: 10px;
@@ -157,7 +126,7 @@
     left: 8px;
   }
   
-  .home .frame-2 {
+  .home .bouton-2 {
     display: flex;
     width: 101px;
     align-items: center;
@@ -171,30 +140,18 @@
   
   .home .button-2 {
     margin-top: -1px;
-    font-size: var(--display-btn-font-size);
-    letter-spacing: var(--display-btn-letter-spacing);
-    line-height: var(--display-btn-line-height);
     white-space: nowrap;
     position: relative;
     width: fit-content;
-    font-family: var(--display-btn-font-family);
-    font-weight: var(--display-btn-font-weight);
+    font-family: "Mulish";
     color: var(--white);
     text-align: center;
-    font-style: var(--display-btn-font-style);
+    font-style: bold, uppercase;
     all: unset;
     box-sizing: border-box;
   }
   
-  .home .arrow {
-    position: relative;
-    width: 4.18px;
-    height: 7.36px;
-    margin-right: -7.5px;
-    object-fit: cover;
-  }
-  
-  .home .overlap-group {
+  .home .landing {
     position: absolute;
     width: 390px;
     height: 605px;
@@ -219,7 +176,7 @@
     left: 126px;
   }
   
-  .home .overlap-2 {
+  .home .landing {
     position: relative;
     width: 224px;
     height: 170px;
@@ -235,38 +192,30 @@
     top: 0;
   }
   
-  .home .element-avril-juin {
+  .home .date {
     position: absolute;
     width: 132px;
     top: 17px;
     left: 81px;
-    font-family: var(--heading-4-font-family);
-    font-weight: var(--heading-4-font-weight);
+    font-family: "Epilogue";
     color: var(--white);
-    font-size: var(--heading-4-font-size);
     text-align: center;
-    letter-spacing: var(--heading-4-letter-spacing);
-    line-height: var(--heading-4-line-height);
-    font-style: var(--heading-4-font-style);
+    font-style: light;
   }
   
-  .home .text-wrapper-4 {
+  .home .année {
     position: absolute;
     width: 90px;
     top: 119px;
     left: 122px;
     -webkit-text-stroke: 1px #000000;
-    font-family: var(--heading-1-font-family);
-    font-weight: var(--heading-1-font-weight);
+    font-family: "Encode Sans SC";
     color: var(--white);
-    font-size: var(--heading-1-font-size);
-    letter-spacing: var(--heading-1-letter-spacing);
-    line-height: var(--heading-1-line-height);
     white-space: nowrap;
-    font-style: var(--heading-1-font-style);
+    font-style: bold;
   }
   
-  .home .flexcontainer {
+  .home .text {
     gap: 15px;
     width: 77px;
     height: 80px;
@@ -280,20 +229,16 @@
   
   .home .text {
     font-family: var(--heading-3-font-family);
-    font-weight: var(--heading-3-font-weight);
     color: var(--white);
     font-size: var(--heading-3-font-size);
     text-align: center;
-    line-height: var(--heading-3-line-height);
     position: relative;
     align-self: stretch;
-    letter-spacing: var(--heading-3-letter-spacing);
     font-style: var(--heading-3-font-style);
   }
   
-  .home .span {
+  .home .text {
     font-family: var(--heading-3-font-family);
-    font-weight: var(--heading-3-font-weight);
     color: #ffffff;
     font-size: var(--heading-3-font-size);
     letter-spacing: var(--heading-3-letter-spacing);
@@ -301,7 +246,7 @@
     font-style: var(--heading-3-font-style);
   }
   
-  .home .navbar {
+  .home .header {
     position: absolute;
     width: 390px;
     height: 69px;
@@ -326,7 +271,7 @@
     left: 4px;
   }
   
-  .home .element-aaf-af {
+  .home .logo {
     position: absolute;
     width: 49px;
     height: 50px;
@@ -335,7 +280,7 @@
     object-fit: cover;
   }
   
-  .home .overlap-3 {
+  .home .rectangle-3 {
     position: absolute;
     width: 391px;
     height: 109px;
@@ -353,18 +298,14 @@
     top: 0;
   }
   
-  .home .d-couvrez-l-h-ritage {
+  .home .rectangle-3 {
     position: absolute;
     width: 340px;
     top: 6px;
     left: 13px;
-    font-family: var(--sm-texte-font-family);
-    font-weight: var(--sm-texte-font-weight);
+    font-family: "Epilogue";
     color: #000000;
-    font-size: var(--sm-texte-font-size);
-    letter-spacing: var(--sm-texte-letter-spacing);
-    line-height: var(--sm-texte-line-height);
-    font-style: var(--sm-texte-font-style);
+    font-style: light;
   }
   
   .home .footer {
@@ -385,13 +326,13 @@
     left: 18px;
   }
   
-  .home .img-2 {
+  .home .img {
     position: relative;
     width: 24px;
     height: 24px;
   }
   
-  .home .overlap-group-2 {
+  .home .footinfo {
     position: absolute;
     width: 390px;
     height: 26px;
@@ -399,15 +340,7 @@
     left: 0;
   }
   
-  .home .logo-grand-belfort {
-    position: absolute;
-    width: 80px;
-    height: 20px;
-    top: 6px;
-    left: 30px;
-  }
-  
-  .home .rectangle-4 {
+  .home .footinfo {
     position: absolute;
     width: 390px;
     height: 26px;
@@ -416,7 +349,7 @@
     background-color: var(--dark-blue);
   }
   
-  .home .text-wrapper-5 {
+  .home .nouscontacter {
     top: 107px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
@@ -430,7 +363,7 @@
     white-space: nowrap;
   }
   
-  .home .text-wrapper-6 {
+  .home .billeterie {
     width: 104px;
     top: 152px;
     left: 18px;
@@ -444,22 +377,18 @@
     white-space: nowrap;
   }
   
-  .home .text-wrapper-7 {
+  .home .noussuivre {
     top: 275px;
-    font-family: var(--samll-text-bold-font-family);
-    font-weight: var(--samll-text-bold-font-weight);
-    font-size: var(--samll-text-bold-font-size);
-    line-height: var(--samll-text-bold-line-height);
+    font-family: "Epilogue";
     position: absolute;
     width: 104px;
     left: 18px;
     color: var(--black);
-    letter-spacing: var(--samll-text-bold-letter-spacing);
     white-space: nowrap;
-    font-style: var(--samll-text-bold-font-style);
+    font-style: bold;
   }
   
-  .home .flexcontainer-i {
+  .home .num {
     gap: 2px;
     width: 207px;
     height: 46px;
@@ -471,7 +400,7 @@
     position: absolute;
   }
   
-  .home .text-i {
+  .home .num {
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -482,7 +411,7 @@
     letter-spacing: 0;
   }
   
-  .home .text-wrapper-8 {
+  .home .num {
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -491,7 +420,7 @@
     line-height: 20.8px;
   }
   
-  .home .element-2 {
+  .home .logo-2 {
     position: absolute;
     width: 49px;
     height: 50px;
@@ -500,59 +429,39 @@
     object-fit: cover;
   }
   
-  .home .eero-saarinen-figure {
+  .home .Presentation {
     position: absolute;
     width: 242px;
     top: 967px;
     left: 13px;
-    font-family: var(--sm-texte-font-family);
-    font-weight: var(--sm-texte-font-weight);
+    font-family: "Epilogue";
     color: #000000;
-    font-size: var(--sm-texte-font-size);
-    letter-spacing: var(--sm-texte-letter-spacing);
-    line-height: var(--sm-texte-line-height);
-    font-style: var(--sm-texte-font-style);
+    font-style: light;
   }
   
-  .home .text-wrapper-9 {
+  .home .titre {
     position: absolute;
     width: 147px;
     top: 636px;
     left: 13px;
-    font-family: var(--heading-2-font-family);
-    font-weight: var(--heading-2-font-weight);
+    font-family: "Encode Sans SC";
     color: var(--black);
-    font-size: var(--heading-2-font-size);
-    letter-spacing: var(--heading-2-letter-spacing);
-    line-height: var(--heading-2-line-height);
     white-space: nowrap;
-    font-style: var(--heading-2-font-style);
+    font-style: ultra light;
   }
   
-  .home .text-wrapper-10 {
+  .home .inter {
     position: absolute;
     top: 683px;
     left: 13px;
-    font-family: var(--heading-3-font-family);
-    font-weight: var(--heading-3-font-weight);
+    font-family: "Encode Sans SC";
     color: #000000;
-    font-size: var(--heading-3-font-size);
     text-align: center;
-    letter-spacing: var(--heading-3-letter-spacing);
-    line-height: var(--heading-3-line-height);
     white-space: nowrap;
-    font-style: var(--heading-3-font-style);
+    font-style: bold;
   }
   
-  .home .line-wrapper {
-    top: 676px;
-    left: 13px;
-    position: absolute;
-    width: 75px;
-    height: 1px;
-  }
-  
-  .home .l-univers {
+  .home .header h2 {
     position: absolute;
     width: 289px;
     top: 730px;
@@ -566,34 +475,26 @@
     font-style: var(--heading-5-font-style);
   }
   
-  .home .text-wrapper-11 {
+  .home .info h2 {
     position: absolute;
     top: 1367px;
     left: 13px;
-    font-family: var(--heading-2-font-family);
-    font-weight: var(--heading-2-font-weight);
+    font-family: "Encode Sans SC";
     color: #000000;
-    font-size: var(--heading-2-font-size);
-    letter-spacing: var(--heading-2-letter-spacing);
-    line-height: var(--heading-2-line-height);
     white-space: nowrap;
-    font-style: var(--heading-2-font-style);
+    font-style: e light;
   }
   
-  .home .fondation-cartier {
+  .home .info p {
     position: absolute;
     top: 1423px;
     left: 13px;
-    font-family: var(--sm-texte-font-family);
-    font-weight: var(--sm-texte-font-weight);
+    font-family: "Epilogue";
     color: #000000;
-    font-size: var(--sm-texte-font-size);
-    letter-spacing: var(--sm-texte-letter-spacing);
-    line-height: var(--sm-texte-line-height);
-    font-style: var(--sm-texte-font-style);
+    font-style: light;
   }
   
-  .home .ouverture-du-mardi {
+  .home .horraire p {
     position: absolute;
     width: 297px;
     top: 1522px;
@@ -607,24 +508,13 @@
     font-style: var(--sm-texte-font-style);
   }
   
-  .home .plein-tarif-tarif {
+  .home .tarif h3 {
     position: absolute;
     width: 297px;
     top: 1621px;
     left: 13px;
-    font-family: var(--sm-texte-font-family);
-    font-weight: var(--sm-texte-font-weight);
+    font-family: "Epilogue";
     color: #000000;
-    font-size: var(--sm-texte-font-size);
-    letter-spacing: var(--sm-texte-letter-spacing);
-    line-height: var(--sm-texte-line-height);
-    font-style: var(--sm-texte-font-style);
+    font-style: bold;
   }
   
-  .home .img-wrapper {
-    top: 1356px;
-    left: 13px;
-    position: absolute;
-    width: 75px;
-    height: 1px;
-  }
