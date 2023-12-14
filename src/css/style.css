@@ -12,33 +12,13 @@
 
   .home .div {
     background-color: #ffffff;
-    width: 391px;
+    width: 390px;
     height: 2243px;
     position: relative;
   }
   
-  .home .horraire h3 {
-    position: absolute;
-    top: 1495px;
-    left: 0;
-    font-family: "Epilogue";
-    color: #000000;
-    font-size: var(--samll-text-bold-font-size);
-    white-space: nowrap;
-    font-style: bold;
-  }
   
-  .home .tarif h3 {
-    position: absolute;
-    top: 1594px;
-    left: 0;
-    font-family: "Epilogue";
-    color: #000000;
-    white-space: nowrap;
-    font-style: bold;
-  }
-  
-  .home .zz {
+  .boutons {
     position: absolute;
     width: 117px;
     height: 184px;
@@ -46,12 +26,12 @@
     left: 265px;
   }
   
-  .home .ticket { 
+  .ticket { 
     position: absolute;
-    width: 18px;
-    height: 18px;
-    top: 72px;
-    left: 87px;
+    width: 15px;
+    height: 15px;
+    top: 20px;
+    left: 64px;
     object-fit: cover;
   }
   
@@ -64,8 +44,8 @@
     top: 0;
   }
   
-  .home .bouton h3 {
-    top: 21px;
+  .boutons h3 {
+    top: 1px;
     left: 8px;
     font-family: "Epilogue";
     color: #ffffff;
@@ -73,72 +53,55 @@
     position: absolute;
     white-space: nowrap;
     font-style: bold;
+    font-size: var(--sm-text-font-size);
   }
   
-  .home .bouton {
-    width: 102px;
-    height: 40px;
+  .bouton {
+    width: 100px;
+    height: 39px;
     justify-content: center;
     top: 54px;
     background-color: var(--dark-blue);
     display: flex;
-    align-items: center;
     position: absolute;
     left: 8px;
+    font-family: "Mulish";
+    color: var(--white);
+    font-style: bold, uppercase;
+    font-size: 9px;
+
+  }
+  
+  .button {
+    all: unset;
+  }
+  
+  .home .bouton-2 {
+    width: 75px;
+    height: 15px;
+    top: 112px;
+    display: flex;
+    position: absolute;
+    left: 8px;
+    padding: 11px 11px 10px 12px;
+    border: 1px solid;
+    border-color: var(--white);
+    font-family: "Mulish";
+    color: var(--white);
+    font-style: bold, uppercase;
+    font-size: 9px;
+    justify-content: center;
+
   }
   
 
-  .home .button {
-    margin-top: -10.5px;
-    margin-bottom: -8.5px;
-    position: relative;
-    width: fit-content;
-    font-family: "Mulish";
-    color: var(--white);
-    text-align: center;
-    font-style: bold, uppercase;
-    all: unset;
-    box-sizing: border-box;
-  }
-  
-  .home .bouton-2 {
-    width: 98px;
-    height: 37px;
-    gap: 10px;
-    top: 122px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: 8px;
-  }
-  
-  .home .bouton-2 {
-    display: flex;
-    width: 101px;
-    align-items: center;
-    gap: 8px;
-    padding: 9px 13px 10px 12px;
-    position: relative;
-    margin-right: -3px;
-    border: 1px solid;
-    border-color: var(--white);
-  }
   
   .home .button-2 {
-    margin-top: -1px;
-    white-space: nowrap;
-    position: relative;
-    width: fit-content;
-    font-family: "Mulish";
-    color: var(--white);
-    text-align: center;
-    font-style: bold, uppercase;
     all: unset;
-    box-sizing: border-box;
   }
   
   .home .landing {
-    position: absolute;
+    position: relative;
     width: 390px;
     height: 605px;
     top: 0;
@@ -163,18 +126,17 @@
   }
   
   .home .landing {
-    background-color: #b42f2f;
     position: relative;
-    width: 24px;
+    width: 240px;
     height: 170px;
   }
   
-  .home .rectangle-2 {
+  .home .date {
     width: 222px;
     height: 170px;
     left: 2px;
     background-color: var(--black);
-    opacity: 0.8;
+    opacity: 0.7;
     position: absolute;
     top: 0;
   }
@@ -269,30 +231,14 @@
   
   .home .rectangle-3 {
     position: absolute;
-    width: 391px;
+    width: 390px;
     height: 109px;
     top: 829px;
-    left: 0;
-  }
-  
-  .home .rectangle-3 {
-    width: 391px;
-    height: 109px;
-    left: 0;
-    background-color: var(--gray);
-    opacity: 0.8;
-    position: absolute;
-    top: 0;
-  }
-  
-  .home .rectangle-3 {
-    position: absolute;
-    width: 340px;
-    top: 6px;
-    left: 13px;
     font-family: "Epilogue";
     color: #000000;
     font-style: light;
+    background-color: var(--gray);
+    opacity: 0.8;
   }
   
   .home .footer {
@@ -426,7 +372,7 @@
     font-style: light;
   }
   
-  .home .titre {
+  .home .titre h1 {
     position: absolute;
     width: 147px;
     top: 636px;
@@ -435,6 +381,15 @@
     color: var(--black);
     white-space: nowrap;
     font-style: ultra light;
+  }
+
+  .inter-2 {
+    position: absolute;
+    top: 720px;
+    left: 13px;
+    font-family: "Epilogue";
+    color: #000000;
+    font-style: bold;
   }
   
   .home .inter {
@@ -462,46 +417,76 @@
     font-style: var(--heading-5-font-style);
   }
   
-  .home .info h2 {
-    position: absolute;
-    top: 1367px;
-    left: 13px;
-    font-family: "Encode Sans SC";
-    color: #000000;
-    white-space: nowrap;
-    font-style: e light;
-  }
   
-  .home .info p {
+  .home .info {
     position: absolute;
-    top: 1423px;
+    top: 1500px;
     left: 13px;
     font-family: "Epilogue";
     color: #000000;
     font-style: light;
   }
+
+  .home .info h2 {
+    font-family: "Encode Sans SC";
+    color: #000000;
+    white-space: nowrap;
+    font-style: e light;
+  }
+
+  .fonda {
+    font-family: "epilogue";
+    position: absolute;
+    top: 50px;
+    width: 297px;
+    height: 57px; 
+    font-style: light;
+  }
+  .adrs {
+    font-family: "epilogue";
+    position: absolute;
+    top: 69.2px;
+    width: 297px;
+    height: 57px; 
+    font-style: light;
+  }
+  .code_post {
+    font-family: "epilogue";
+    position: absolute;
+    top: 88.2px;
+    width: 297px;
+    height: 57px; 
+    font-style: light;
+  }
+
+
   
-  .home .horraire p {
+  .home .horraire {
     position: absolute;
     width: 297px;
-    top: 1522px;
+    top: 250px;
     left: 13px;
     font-family: var(--sm-texte-font-family);
-    font-weight: var(--sm-texte-font-weight);
     color: #000000;
-    font-size: var(--sm-texte-font-size);
-    letter-spacing: var(--sm-texte-letter-spacing);
-    line-height: var(--sm-texte-line-height);
     font-style: var(--sm-texte-font-style);
   }
+
+  .home .horraire h3 {
+    position: absolute;
+    left: 0;
+    font-family: "Epilogue";
+    color: #000000;
+    font-size: var(--samll-text-bold-font-size);
+    white-space: nowrap;
+    font-style: bold;
+  }
   
-  .home .tarif h3 {
+  .tarif {
     position: absolute;
     width: 297px;
-    top: 1621px;
+    top: 400px;
     left: 13px;
     font-family: "Epilogue";
     color: #000000;
     font-style: bold;
   }
-  
