@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;600;700&display=swap');
 @import url(/src/css/Styleguide.css);
-.home {
+.main {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -10,7 +10,7 @@
     width: 100%;
   }
   
-  .home .div {
+  .main .div {
     background-color: #ffffff;
     width: 391px;
     height: 2243px;
