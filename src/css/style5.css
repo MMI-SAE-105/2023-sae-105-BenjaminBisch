@@ -147,7 +147,7 @@
 
   h1 {
     position: absolute;
-    width: 339px;
+    width: 345px;
     height: 27px;
     top: 140px;
     left: 20px;
@@ -163,19 +163,62 @@
     left: 119px;
   }
 
-  .img1 {
+  .plein_tarif img {
     position: absolute;
-    top: 152px;
+    top: 224px;
   }
-  .img2 {
+  .tarif_reduit img {
     position: absolute;
     top: 497px;
   }
-  .img3 {
+  .reduction img {
     position: absolute;
     top: 770px;
   }
-  .img4 {
+  .pass img {
     position: absolute;
     top: 1043px;
   }
+
+  .plein_tarif p {
+    position: absolute;
+    width: 82px;
+    height: 19px;
+    top: 390px;
+    left: 154px;
+    font-family: "Epilogue";
+    font-weight: 300;
+    font-size: var(--sm-texte);
+  }
+  .tarif_reduit p {
+    position: absolute;
+    width: 115px;
+    height: 19px;
+    top: 663px;
+    left: 144px;
+    font-family: "Epilogue";
+    font-weight: 300;
+    font-size: var(--sm-texte);
+  }
+  .reduction p {
+    position: absolute;
+    width: 155px;
+    height: 19px;
+    top: 937px;
+    left: 122px;
+    font-family: "Epilogue";
+    font-weight: 300;
+    font-size: var(--sm-texte);
+  }
+  .pass p {
+    position: absolute;
+    width: 200px;
+    height: 19px;
+    top: 1209px;
+    left: 96px;
+    font-family: "Epilogue";
+    font-weight: 300;
+    font-size: var(--sm-texte);
+  }
+
+  
