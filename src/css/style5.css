@@ -221,4 +221,51 @@
     font-size: var(--sm-texte);
   }
 
-  
+  .plein_tarif button {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    top: 424px;
+    left: 135px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: var(--dark-blue);
+    color:white
+  }
+  .tarif_reduit button {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    top: 697px;
+    left: 135px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: var(--dark-blue);
+    color:white
+  }
+  .reduction button {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    top: 970px;
+    left: 135px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: var(--dark-blue);
+    color:white
+  }
+  .pass button {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    top: 1243px;
+    left: 135px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: var(--dark-blue);
+    color:white
+  }
