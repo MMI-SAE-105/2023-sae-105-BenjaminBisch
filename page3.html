@@ -19,6 +19,8 @@
             <div class="open-closed"><img class="menu-open" src="public/img/menu-open.webp"/></div>
             </a>
             <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+              <div class="close-icon" @click="menuIsOpen = false">
+                <img src="/public/img/menu-closed.webp" alt="Fermer le menu" /></div>
                 <ul>
                     <li><a href="index.html">L'Exposition</a></li>
                     <li><a href="page2.html">Presention de l'artiste</a></li>

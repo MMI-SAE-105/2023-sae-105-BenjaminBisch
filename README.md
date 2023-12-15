@@ -3,7 +3,7 @@
 - PRÉNOM : Benjamin
 - URL du site : innovation-en-coubres.netlify.app (URL NETLIFY car probleme avec infomaniak)
 - URL FIGMA :
-
+(maquette non fini)
 # Structure de départ pour la SAE 105.
 
 La structure de votre projet doit respecter scrupuleusement le modèle fourni dans ce dépôt (Repository).
