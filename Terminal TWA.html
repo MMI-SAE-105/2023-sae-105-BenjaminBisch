@@ -10,10 +10,10 @@
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
-    <header>
-        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menubtn">
-        <div class="open-closed"><img class="menu-open" src="public/img/menu-open.webp" /></div>
-        </button>
+    <header class="header">
+        <a aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menubtn">
+        <div class="open-closed"><img class="menu-open" src="public/img/menu-open.webp"/></div>
+        </a>
         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
             <ul>
                 <li><a href="index.html">L'Exposition</a></li>
@@ -31,7 +31,7 @@
             </ul>
         </nav>
         <a href="/index.html">
-        <img src="public/img/Logo.webp" alt="logo"/>
+        <img class="logo" src="public/img/Logo.webp" alt="logo"/>
         </a>
     </header>
     <main>

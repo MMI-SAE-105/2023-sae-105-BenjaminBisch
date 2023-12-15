@@ -2,7 +2,7 @@
 <html lang="fr" x-data="{
   menuIsOpen: false,
  }" 
- :class="{noscroll:menuIsOpen,}">>
+ :class="{noscroll:menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +13,10 @@
 </head>
 <body>
   <main>
-    <header>
-      <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menubtn">
-      <div class="open-closed"><img class="menu-open" src="public/img/menu-open.webp" /></div>
-      </button>
+    <header class="header">
+      <a aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menubtn">
+      <div class="open-closed"><img class="menu-open" src="public/img/menu-open.webp"/></div>
+      </a>
       <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
           <ul>
               <li><a href="index.html">L'Exposition</a></li>
@@ -34,7 +34,7 @@
           </ul>
       </nav>
       <a href="/index.html">
-      <img src="public/img/Logo.webp" alt="logo"/>
+      <img class="logo" src="public/img/Logo.webp" alt="logo"/>
       </a>
   </header>
     
