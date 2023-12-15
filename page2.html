@@ -37,15 +37,72 @@
             </a>
         </header>
 
-    
         <section>
             <div class="intro">
                 <h1>Qui est Eero Saarinen ?</h1>
                 <p>Eero Saarinen (1910-1961) est une figure 
                 légendaire de l'architecture moderne, reconnu pour ses créations
                 emblématiques qui ont redéfini les normes architecturales du XXe siècle.</p>
-                <img class="img1" src="public/img/Eero-Saarinen-1958-2 1.webp">
+
+
+                <div class="carrousel" x-data="{hrefCourant: '#ecran-1',}">
+                    <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"><</button>
+                    <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
+                    <div class="carrousel_parent-ecrans"  x-ref="parent"
+                        @scroll.debounce.250ms.passive="
+                        hrefCourant = '#'+ [...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
+                        <div id="ecran-1" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/TWA2.webp" alt="image ecran 1">
+                        <figcaption>Terminal TWA</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-2" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/Gateway.webp" alt="image ecran 2">
+                        <figcaption>Gateway Arch</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-3" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/House.webp" alt="image ecran 3">
+                        <figcaption>Miller House</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-4" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/Ingalls_9 1.webp" alt="image ecran 4">
+                        <figcaption>Ingalls Rink</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-5" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/Wikipedia_MIT_Kresge_Auditorium 1.webp" alt="image ecran 5">
+                        <figcaption>Kresge Auditorium</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-6" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/Washington_Dulles_International_Airport_at_Dusk 1.webp" alt="image ecran 5">
+                        <figcaption>Dulles International Airport</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-7" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/1200px-Bell_Labs_Holmdel 1.webp" alt="image ecran 5">
+                        <figcaption>Bell Labs Holmdel Complex</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-8" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/1200px-Bell_Labs_Holmdel 2.webp" alt="image ecran 5">
+                        <figcaption>North Christian Church</figcaption>
+                    </figure>
+                </div>
             </div>
+            
+            
+                        </div>
             <div class="texte">
                 <h1>Héritage Architectural</h1>
                 <p>Élevé dans une famille d'architectes, Saarinen a été immergé dès son plus jeune âge
