@@ -1,6 +1,9 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="fr" x-data="{
+  menuIsOpen: false,
+ }" 
+ :class="{noscroll:menuIsOpen,}">
   <head>
     <link rel="stylesheet" href="src/css/style.css" />
     <meta charset="utf-8" />
@@ -28,10 +31,30 @@
           <div class="date">13 avril<br/> 23 juin
             <p class="année">2024</p>
           </div>
-            <header class="header">
-              <div class="open-closed"><img class="menu-open" src="public/img/menu-open.webp" /></div>
-              <img class="logo" src="public/img/Logo.webp" />
-            </header>
+          <header>
+            <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menubtn">
+            <div class="open-closed"><img class="menu-open" src="public/img/menu-open.webp" /></div>
+            </button>
+            <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+                <ul>
+                    <li><a href="index.html">L'Exposition</a></li>
+                    <li><a href="page2.html">Presention de l'artiste</a></li>
+                    <li><a href="Terminal TWA.html">Oeuvre 1</a></li>
+                    <li><a href="">Oeuvre 2</a></li>
+                    <li><a href="">Oeuvre 3</a></li>
+                    <li><a href="">Oeuvre 4</a></li>
+                    <li><a href="">Oeuvre 5</a></li>
+                    <li><a href="">Oeuvre 6</a></li>
+                    <li><a href="">Oeuvre 7</a></li>
+                    <li><a href="">Oeuvre 8</a></li>
+                    <li><a href="Billeterie.html"><img class="ticket" src="/public/img/Ticket.webp" alt="ticket"></a></li>
+                    <li><a href="contact.html">Contacter nous</a></li>
+                </ul>
+            </nav>
+            <a href="/index.html">
+            <img src="public/img/Logo.webp" alt="logo"/>
+            </a>
+        </header>
         </div>
       </div> 
       <p class="text">
