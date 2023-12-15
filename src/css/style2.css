@@ -20,6 +20,12 @@
     left: 18px;
   }
 
+  .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+
   .footinfo {
     position: absolute;
     width: 390px;

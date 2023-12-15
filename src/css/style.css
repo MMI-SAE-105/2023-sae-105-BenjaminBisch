@@ -117,10 +117,14 @@
   
   .home .date {
     position: absolute;
-    width: 230px;
-    height: 170px;
-    top: 435px;
-    left: 126px;
+    width: 130px;
+    height: 80px;
+    top: 452px;
+    left: 207px;
+    font-family: "Epilogue";
+    font-style: light;
+    color: var(--white);
+    text-align: center;
   }
   
   .home .landing {
@@ -129,69 +133,39 @@
     height: 170px;
   }
   
-  .home .date {
+  .home .rectangle-2 {
     width: 222px;
     height: 170px;
-    left: 2px;
+    left: 128px;
+    top: 435px;
     background-color: var(--black);
-    opacity: 0.7;
+    opacity: 0.8;
     position: absolute;
-    top: 0;
   }
-  
-  .home .date {
-    position: absolute;
-    width: 132px;
-    top: 17px;
-    left: 81px;
-    font-family: "Epilogue";
-    color: var(--white);
-    text-align: center;
-    font-style: light;
-  }
-  
+    
   .home .année {
     position: absolute;
     width: 90px;
-    top: 119px;
-    left: 122px;
-    -webkit-text-stroke: 1px #000000;
+    top: 60px;
+    left: 40px;
     font-family: "Encode Sans SC";
     color: var(--white);
-    white-space: nowrap;
     font-style: bold;
+    font-size: var(--heading1);
   }
   
   .home .text {
-    gap: 15px;
     width: 77px;
     height: 80px;
-    top: 20px;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    top: 455px;
+    left: 160px;
     position: absolute;
-  }
-  
-  .home .text {
-    font-family: var(--heading-3);
+    font-family: "Encode Sans SC";
+    font-style: bold;
+    font-size: var(--heading3);
     color: var(--white);
-    font-size: var(--heading-3);
-    text-align: center;
-    position: relative;
-    align-self: stretch;
-    font-style: var(--heading-3-font-style);
   }
   
-  .home .text {
-    font-family: var(--heading-3-font-family);
-    color: #ffffff;
-    font-size: var(--heading-3-font-size);
-    letter-spacing: var(--heading-3-letter-spacing);
-    line-height: var(--heading-3-line-height);
-    font-style: var(--heading-3-font-style);
-  }
   
   .home .header {
     position: absolute;
@@ -246,7 +220,7 @@
     position: absolute;
     width: 390px;
     height: 364px;
-    top: 650px;
+    top: 560px;
     left: -13px;
     background-color: var(--gray);
   }
@@ -266,21 +240,12 @@
     height: 24px;
   }
   
-  .home .footinfo {
+  .footinfo {
     position: absolute;
     width: 390px;
     height: 26px;
-    top: 357px;
-    left: 0;
-  }
-  
-  .home .footinfo {
-    position: absolute;
-    width: 390px;
-    height: 26px;
-    top: 0;
-    left: 0;
     background-color: var(--dark-blue);
+    top: 357px;
   }
   
   .home .nouscontacter {
@@ -312,13 +277,12 @@
   }
   
   .home .noussuivre {
-    top: 275px;
+    top: 270px;
     font-family: "Epilogue";
     position: absolute;
     width: 104px;
     left: 18px;
     color: var(--black);
-    white-space: nowrap;
     font-style: bold;
   }
   
