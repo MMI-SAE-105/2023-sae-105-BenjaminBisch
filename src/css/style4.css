@@ -310,7 +310,7 @@
   .menu ul {
     list-style: none;
     padding: 0;
-    margin: 25% 0 0 0;
+    margin: 20% 0 0 0;
     text-align: center;
   }
   .menu ul li {
@@ -318,6 +318,9 @@
   }
 
   .menuderoule {
+    top: 225px;
+    left: 135px;
+    position: absolute;
     color: white;
     font-size: 24px;
     text-decoration: none;
@@ -330,7 +333,7 @@
   }
 
   .menu ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 24px;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
