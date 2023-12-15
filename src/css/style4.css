@@ -316,6 +316,19 @@
   .menu ul li {
     margin-bottom: 20px;
   }
+
+  .menuderoule {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .menuderoule:hover {
+    color: var(--blue);
+    cursor: pointer;
+  }
+
   .menu ul li a {
     color: white;
     font-size: 24px;
