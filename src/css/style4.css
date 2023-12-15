@@ -7,7 +7,7 @@
     position: absolute;
     width: 390px;
     height: 364px;
-    top: 1706px;
+    top: 3005px;
     background-color: var(--gray);
   }
 
@@ -25,22 +25,13 @@
     width: 24px;
     height: 24px;
   }
-
-  .footinfo {
-    position: absolute;
-    width: 390px;
-    height: 26px;
-    top: 357px;
-    left: 0;
-  }
   
   .footinfo {
     position: absolute;
     width: 390px;
     height: 26px;
-    top: 0;
-    left: 0;
     background-color: var(--dark-blue);
+    top: 357px;
   }
 
   .nouscontacter {
@@ -137,3 +128,56 @@
     left: 16px;
     object-fit: cover;
   }
+
+  body {
+    background-color: #7d7d7d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  main {
+    background-color: #ffffff;
+    width: 390px;
+    height: 2070px;
+    position: relative;
+  }
+
+  .form h1 {
+    position: absolute;
+    width: 139px;
+    height: 46px;
+    top: 134px;
+    left: 64px;
+    font-family: "Epilogue";
+    font-weight: 200;
+    font-size: var(--heading4);
+    color: var(--white);
+    z-index: 2;
+  }
+
+  .rectangle2 {
+    position: absolute;
+    width: 221px;
+    height: 61px;
+    transform: rotate(-4.301deg); 
+    top: 127px;
+    left: 18px;
+    background-color: var(--blue);
+    z-index: 0;
+  }
+
+  .rectangle {
+    position: absolute;
+    width: 221px;
+    height: 61px; 
+    top: 127px;
+    left: 24px;
+    background-color: var(--dark-blue);
+    z-index: 1;
+  }
+
+  
+
+  
