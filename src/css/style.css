@@ -520,3 +520,26 @@
     width: 30px;
     height: 30px;
 }
+
+.tickethead {
+  position: absolute;
+  width: 40px;
+  border-radius: 8px;
+  left: 270px;
+  top: 15px;
+}
+
+.menuderoule {
+  top: 225px;
+  left: 135px;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.menuderoule:hover {
+  color: var(--blue);
+  cursor: pointer;
+}

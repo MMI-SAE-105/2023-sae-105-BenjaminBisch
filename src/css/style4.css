@@ -108,12 +108,11 @@
 
   header .ticket {
     position: absolute;
-    width: 75px;
-    height: 75px;
-    top: 625px;
-    left: 290px;
+    width: 60px;
+    height: 60px;
+    top: 650px;
+    left: 310px;
     border-radius: 8px;
-
   }
 
   .open-closed {
