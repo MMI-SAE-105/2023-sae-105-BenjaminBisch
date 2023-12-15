@@ -193,6 +193,20 @@
     font-weight: bold;
     font-size: var(--button);
   }
+
+  .ex1 {
+    position: absolute;
+    width: 55px;
+    height: 19px;
+    top: 278px;
+    left: 16px;
+    font-family: "Epilogue";
+    font-weight: 200;
+    font-size: var(--sm-texte);
+    z-index: 2;
+    color: #898989;
+  }
+
   .email {
     position: absolute;
     width: 45px;
@@ -202,6 +216,20 @@
     font-weight: bold;
     font-size: var(--button);
   }
+
+  .ex2 {
+    position: absolute;
+    width: 134px;
+    height: 19px;
+    top: 347px;
+    left: 16px;
+    font-family: "Epilogue";
+    font-weight: 200;
+    font-size: var(--sm-texte);
+    z-index: 2;
+    color: #898989;
+  }
+
   .sujet {
     position: absolute;
     width: 30px;
@@ -219,5 +247,41 @@
     font-family: "MULISH";
     font-weight: bold;
     font-size: var(--button);
+  }
+
+  .champ1 {
+    position: absolute;
+    width: 293px;
+    height: 26px;
+    top: 267px;
+    border-radius: 13px;
+    background-color: var(--gray);
+  }
+
+  .champ2 {
+    position: absolute;
+    width: 293px;
+    height: 26px;
+    top: 336px;
+    border-radius: 13px;
+    background-color: var(--gray);
+  }
+
+  .champ3 {
+    position: absolute;
+    width: 293px;
+    height: 26px;
+    top: 405px;
+    border-radius: 13px;
+    background: var(--gray);
+  }
+
+  .champ4 {
+    position: absolute;
+    width: 293px;
+    height: 77px;
+    top: 474px;
+    border-radius: 13px;
+    background: var(--gray);
   }
 
