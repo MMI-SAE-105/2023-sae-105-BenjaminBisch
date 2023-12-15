@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;600;700&family=Mulish:wght@700&display=swap');
 @import url(/utils/variables.css);
 
 .footer {
     position: absolute;
     width: 390px;
     height: 364px;
-    top: 3005px;
+    top: 647px;
     background-color: var(--gray);
   }
 
@@ -140,7 +141,7 @@
   main {
     background-color: #ffffff;
     width: 390px;
-    height: 2070px;
+    height: 1030px;
     position: relative;
   }
 
@@ -178,6 +179,45 @@
     z-index: 1;
   }
 
-  
+  .form {
+    position: absolute;
+    left: 36px;
+  }
 
-  
+  .nom {
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    top: 247px;
+    font-family: "MULISH";
+    font-weight: bold;
+    font-size: var(--button);
+  }
+  .email {
+    position: absolute;
+    width: 45px;
+    height: 14px;
+    top: 316px;
+    font-family: "MULISH";
+    font-weight: bold;
+    font-size: var(--button);
+  }
+  .sujet {
+    position: absolute;
+    width: 30px;
+    height: 14px;
+    top: 385px;
+    font-family: "MULISH";
+    font-weight: bold;
+    font-size: var(--button);
+  }
+  .message {
+    position: absolute;
+    width: 58px;
+    height: 14px;
+    top: 454px;
+    font-family: "MULISH";
+    font-weight: bold;
+    font-size: var(--button);
+  }
+
