@@ -9,12 +9,12 @@
     --gray: rgba(219, 219, 219, 1);
     --dark-gray: rgba(45, 45, 45, 1);
 
-    --heading-1-font-size: 36px;
-    --heading-2-font-size: 24px;
-    --heading-3-font-size: 22px;
-    --heading-4-font-size: 36px;
-    --heading-5-font-size: 18px;
+    --heading1: 36px;
+    --heading2: 24px;
+    --heading3: 22px;
+    --heading4: 36px;
+    --heading5: 18px;
 
-    --button-font-size: 10px;
-    --sm-texte-font-size: 12px;
+    --button: 10px;
+    --sm-texte: 12px;
  }
